@@ -1,0 +1,7 @@
+C:\Users\Ram Kumar\Desktop\MBABootCamp2012\Assignment-3\Ram\Code\ConsoleShopping\ConsoleShopping\bin\Debug\ConsoleShopping.exe.config
+C:\Users\Ram Kumar\Desktop\MBABootCamp2012\Assignment-3\Ram\Code\ConsoleShopping\ConsoleShopping\bin\Debug\ConsoleShopping.exe
+C:\Users\Ram Kumar\Desktop\MBABootCamp2012\Assignment-3\Ram\Code\ConsoleShopping\ConsoleShopping\bin\Debug\ConsoleShopping.pdb
+C:\Users\Ram Kumar\Desktop\MBABootCamp2012\Assignment-3\Ram\Code\ConsoleShopping\ConsoleShopping\bin\Debug\ConsoleShopping.exe.CodeAnalysisLog.xml
+C:\Users\Ram Kumar\Desktop\MBABootCamp2012\Assignment-3\Ram\Code\ConsoleShopping\ConsoleShopping\bin\Debug\ConsoleShopping.exe.lastcodeanalysissucceeded
+C:\Users\Ram Kumar\Desktop\MBABootCamp2012\Assignment-3\Ram\Code\ConsoleShopping\ConsoleShopping\obj\x86\Debug\ConsoleShopping.exe
+C:\Users\Ram Kumar\Desktop\MBABootCamp2012\Assignment-3\Ram\Code\ConsoleShopping\ConsoleShopping\obj\x86\Debug\ConsoleShopping.pdb
