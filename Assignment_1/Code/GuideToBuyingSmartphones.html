@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
+    <meta charset="utf-8">
+      
+    <title>Guide to Buying Smartphones</title>
+    <link href="GuideToBuyingSmartphones.css" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]>
+      <script src="javascript/html5shiv.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+
+var image1 = new Image();
+image1.src = "Images/ImgSlider_1.jpg";
+var image2 = new Image();
+image2.src = "Images/ImgSlider_2.jpg";
+var image3 = new Image();
+image3.src = "Images/ImgSlider_3.jpg";
+var image4 = new Image();
+image4.src = "Images/ImgSlider_4.jpg";
+</script>
+  </head>
+    <body>
+    <header id="home_header"> <a href="GuideToBuyingSmartphones.html">
+        <h1>Guide to Buying Smartphones</h1>
+      </a>
+      <nav id="home_main_nav">
+        <ul>
+          <li><a href="GuideToBuyingSmartphones.html">Home</a></li>
+          <li><a href="VanillaOSPhones.html">Vanilla OS Phones</a></li>
+          <li><a href="CustomizedOSPhones.html">Customized OS Phones</a></li>
+          <li><a href="SmartPhoneVideos.html">Videos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br/><br/>
+    <table id="tbl_Main" class="tbl_Content">
+      <tr id="tbl_Main_Content">
+        <td class="class_ImgSlider"><img src="Images/ImgSlider_1.jpg" id="img_Slider" name="slide" height="100%" alt="Smart Phones"/></td>
+        <td class="class_ContentInTbl">
+          Guide to Buying Smartphones attempts to demystify the world of smart phones for those planning to get a smart phone for themselves or their loved ones.
+          At a fundamental level, a smartphone comprises of the hardware (handset), operating system on top of the hardware of the handset, and the applications on top of the operating system.
+          While there are many ways to classify smartphones in the market, one approach is to classify them based on the level of customization of the operating system from the base version.
+          Those without any customizations can be called phones with vanilla operating system phones. The iPhone, Blackberry, Google Nexus phones fall under the category of vanilla operating system phones.
+          Most Android phones from leading handset manufacturers fall under the category of customized operating system phones. For example, Samsung adds the Touchwiz customization, while HTC adds the Sense customization to most of their models.
+        </td>
+      </tr>
+    </table>
+    <table class="tbl_Content">
+      <tr id="tbl_Link_Content">
+        <td class="class_LinkInTbl">
+          <a href="VanillaOSPhones.html">Vanilla OS Phones
+          <br/><br/>
+          <img src="Images/IceCreamWithoutCustomization.jpg" id="img_VanillaOS" alt="Vanilla OS Phones" height="100%"/>
+          </a>
+        </td>
+        <td class="class_LinkInTbl">
+          <a href="CustomizedOSPhones.html">Customized OS Phones
+          <br/><br/>
+          <img src="Images/IceCreamWithCustomization.jpg" id="img_CustomizedOS" height="100%" alt="Customized OS Phones"/>
+          </a>
+        </td>
+      </tr>
+    </table>
+    <footer>
+        <h3>Disclaimer</h3>
+        <p>This is a website developed to get a hands on experience in HTML5 and CSS3. The author does not guarantee the accuracy of the contents of this website.</p>
+        <p>The author hereby absolves himself and everybody else from any liabilities arising out of the use of content of this website.</p>
+    </footer>
+<script>
+
+
+var step = 1;
+function slideit() {
+  "use strict";
+  if (!document.images) {
+    return;
+  }
+  document.images.slide.src = eval("image" + step + ".src");
+  if (step < 4) {
+    step++;
+  } else {
+    step = 1;
+  }
+  setTimeout("slideit()", 10000);
+}
+slideit();
+
+</script>
+  </body>
+</html>
