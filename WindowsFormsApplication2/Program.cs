@@ -18,6 +18,7 @@ namespace WindowsFormsApplication2
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
             Console.WriteLine("Hello World! Hello Everyone");
+            Console.Read();
         }
     }
 }
